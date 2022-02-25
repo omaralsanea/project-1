@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url('../assets/pickle-rick-background.png');
+  background-size: cover;
+}
+
+.controls-wrapper {
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid-wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 350px;
+  width: 500px;
+  margin-left: 440px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: aqua;
+}
+
+.grid div {
+  border: 3px solid darkgrey;
+  height: 10%;
+  width: 10%;
+  background-color: lightslategray;
+}
+
+.grid div.sauce {
+  background-image: url('../assets/sauce.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid div.pickle {
+  background-image: url('../assets/Pickle_rick_transparent.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#start {
+  background-image: url('../assets/show_me_what_you_got.png');
+  background-color: orange;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  width: 200px;
+  margin-top: 250px;
+  margin-right: 300px;
+  padding-top: 130px;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  border: black;
+  animation-duration: 3s;
+  animation-name: frames;
+}
+
+@keyframes frames {
+  from {
+    color: green;
+    font-size: 5px;
+  }
+}
+
+.controls-wrapper {
+  color: rgb(120, 170, 34);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#score-display {
+  font-size: 30px;
+  color: rgb(120, 177, 34);
+}
+
+.score-section {
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.mode {
+  margin-left: 250px;
+  margin-bottom: 15px;
+  background-color: orange;
+  display: flex;
+  font-size: 30px;
+  cursor: pointer;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  animation-duration: 3s;
+  animation-name: frames;
+}
+
+@keyframes frames {
+  from {
+    color: green;
+    font-size: 16px;
+  }
+}
+
+.grid div.filled {
+  background-image: url(../assets/boiling-water.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
