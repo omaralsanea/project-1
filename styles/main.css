@@ -59,7 +59,7 @@ body {
   background-size: cover;
   height: 230px;
   width: 200px;
-  margin-top: 250px;
+  margin-top: 300px;
   margin-right: 300px;
   padding-top: 130px;
   font-style: oblique;
@@ -121,4 +121,30 @@ body {
 
 .hidden {
   display: none;
+}
+
+p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-size: 18px;
+  color: rgb(120, 177, 34);
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url(../assets/water-background.jpeg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: green;
+  }
 }

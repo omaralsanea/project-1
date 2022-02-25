@@ -122,7 +122,8 @@ function startGame() {
 
     if (totalSauce > 64) {
       clearInterval(timer);
-      alert(`Wubalubadubdub! You got scored ${score}!`);
+      alert(`Wubalubadubdub! You scored ${score}!`);
+      removeSauce(saucePosition);
     } else {
       totalSauce++;
       removeSauce(saucePosition);
