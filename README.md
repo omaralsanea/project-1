@@ -19,6 +19,10 @@ Git and GitHub
 ### 1. Planning
 
 I spent the first day of my project thinking of the game I wanted to create and using Excalidraw to sketch it out (see the sketch titled 'sketch' in assets).
+
+<img width="688" alt="sketch" src="https://user-images.githubusercontent.com/98101603/167865430-740a324d-d44f-4066-b53b-931391982b05.png">
+
+
 I wanted a game that would have a score at the end of it rather than a pass/fail so that the player could continue to try and beat their last score - giving the game a longer lifetime and making the game more addictive.
 
 ### 2. Functionality
