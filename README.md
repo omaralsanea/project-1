@@ -36,16 +36,16 @@ I initially planned on creating hot water pipes on every side of the grid to cre
 
 ### 3. Convenient/inconsequential Bugs:
 
--The player is able to rack up multiple points by rapidly pressing left/right up/down when they come into contact with the Szechuan Sauce. I decided not to do anything about this as it rewards the player if they get to the sauce quickly and they can capitalise on this opportunity.
+-The Szechuan Suauce doesn't disappear on contact - this allows players to rack up multiple points by rapidly pressing left/right up/down when they come into contact with the Szechuan Sauce. I decided not to do anything about this as it rewards the player if they get to the sauce quickly and they can capitalise on this opportunity and is actually a really fun aspect of the game to master.
 
--Much like the 'boiling frog' apologue(which is false according to modern biologists) the hot water doesn't affect Rick if he waits and lets it hit him - it will affect him if he suddenly runs into it though.
+-Much like the 'boiling frog' apologue(which is false according to modern biologists) the hot water doesn't affect Rick if he waits and lets it hit him - it will affect him if he suddenly runs into it though. This is actually not such a bad thing as if the player is distracted and looks away for a second they won't be docked 10 points by the water hitting them. 
 
 -The Szechuan sauce sometimes takes a few seconds longer to spawn than it should.
 I believe this is due to the sauce spawning randomly inside the cells on the grid that have already been occupied by the hot water. This makes scoring points during this time impossible but this period of time is very brief and doesn't happen often. When it does happen it's a chance for the player to breathe.
 
 ### 4. Inconvenient Bugs and Issues:
 
--The player is able to continue racking up their score after the game is over.
+-The player is able to move Pickle Rick after the game is over - this means they can direct him into hot water which will bring up the 'YOU GIT HIT' message. This makes it so you can't see wjhat score was achieved. 
 
 -I had many styling issues due to the fact that I called the grid on two separate occasions in my JavaScript code.
 Due to this, I essentially had two grids.
