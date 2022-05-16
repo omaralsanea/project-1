@@ -45,7 +45,7 @@ I believe this is due to the sauce spawning randomly inside the cells on the gri
 
 ### 4. Inconvenient Bugs and Issues:
 
--The player is able to move Pickle Rick after the game is over - this means they can direct him into hot water which will bring up the 'YOU GIT HIT' message. This makes it so you can't see wjhat score was achieved. 
+-The player is able to move Pickle Rick after the game is over - this means they can direct him into hot water which will bring up the 'YOU GOT HIT' message. This makes it so you can't see wjhat score was achieved. 
 
 -I had many styling issues due to the fact that I called the grid on two separate occasions in my JavaScript code.
 Due to this, I essentially had two grids.
