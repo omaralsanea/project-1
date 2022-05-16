@@ -4,10 +4,12 @@
 
 Pickle Rick is a Rick and Morty themed arcade style game.
 The aim of the game is to help Rick (who's in pickle form) to collect enough Szechuan dipping sauces for him to be able to recreate the recipe.
-The game consists of 3 levels of increasing difficulty.
 
-Guide Pickle Rick through the sewer system of pipes using the direction keys and collect as much Szechuan dipping sauce as you can before the time runs out - but watch out for the hot pipes of water!
-Making contact with hot water will cause your score to drop by 10 every time.
+The player must guide Pickle Rick through the sewer system of pipes using the direction keys and collect as much Szechuan dipping sauce as they can before the timer runs out. The player must also avoid the hot pipes of water that appear as making contact with these will cause the player's score to drop by 10 points every time.
+The game consists of 3 levels of increasing difficulty with the length of time that the Szechuan sauce is in one spot decresing as difficulty increases.  
+
+<img width="1326" alt="Screenshot 2022-05-10 at 15 11 24" src="https://user-images.githubusercontent.com/98101603/168683360-9d7d6e08-30e1-40ee-ad64-60d86e2b97de.png">
+
 
 ### Technologies Used:
 
