@@ -99,5 +99,5 @@ This caused particular problems with backgrounds as half the grid would be one c
 
 ### 6. Key Takeaways
 
-I learned a great deal from this project and gained a deeper understanding of HTML, CSS and JavaScript.
+I learnt a great deal from this project and gained a deeper understanding of HTML, CSS and JavaScript.
 In particular, I have a much better understanding of coding audio files, collision detection, event listeners and set intervals.
