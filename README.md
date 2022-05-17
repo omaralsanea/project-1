@@ -2,16 +2,16 @@
 
 ## Overview:
 
-![ezgif-4-155a9cb60b](https://user-images.githubusercontent.com/98101603/168754769-33e8dc57-903f-42a9-a0c0-62774af8c95f.gif)
+<img width="1010" alt="Screenshot 2022-05-11 at 15 59 12" src="https://user-images.githubusercontent.com/98101603/168803934-b033bef3-53d1-4770-a14d-500edd5280c5.png">
 
 
 Pickle Rick is a Rick and Morty themed arcade style game.
 The aim of the game is to help Rick (who's in pickle form) to collect enough Szechuan dipping sauces for him to be able to recreate the recipe.
 
+![ezgif-4-155a9cb60b](https://user-images.githubusercontent.com/98101603/168754769-33e8dc57-903f-42a9-a0c0-62774af8c95f.gif)
+
 The player must guide Pickle Rick through the sewer system of pipes using the direction keys and collect as much Szechuan dipping sauce as they can before the timer runs out. The player must also avoid the hot pipes of water that appear as making contact with these will cause the player's score to drop by 10 points every time.
 The game consists of 3 levels of increasing difficulty with the length of time that the Szechuan sauce is in one spot decreasing as difficulty increases.  
-
-<img width="1326" alt="Screenshot 2022-05-10 at 15 11 24" src="https://user-images.githubusercontent.com/98101603/168683360-9d7d6e08-30e1-40ee-ad64-60d86e2b97de.png">
 
 
 ### Technologies Used:
@@ -74,6 +74,7 @@ This caused particular problems with backgrounds as half the grid would be one c
 
 -Allowing the player to control movement by both button presses and by also holding the direction buttons down may improve user experience.
 -It would be fairly easy to add other objects the player has to collect and this may make the game more engaging but may run the risk of making it too frantic.
+-Responsive design so that the game can be played on smaller screens and phones would be the main thing I'd want to implement.
 
 ### 6. Key Takeaways
 
