@@ -81,7 +81,7 @@ The last component to the game was including audio which I did with two separate
 -The Szechuan sauce sometimes takes a few seconds longer to spawn than it should. The gif above shows this happening as there is a slight delay between the first and second spawn. 
 I believe this is due to the sauce spawning randomly inside the cells on the grid that have already been occupied by the hot water. This makes scoring points during this time impossible but this period of time is very brief and doesn't happen often. When it does happen it's a chance for the player to breathe and reposition themselves on the board.
 
--Much like the 'boiling frog' apologue(which is false according to modern biologists) the hot water doesn't affect Rick if he waits and lets it hit him - it will affect him if he suddenly runs into it though. This is actually not such a bad thing as if the player is distracted and looks away for a second they won't be docked 10 points by the water hitting them. 
+-Much like the 'boiling frog' apologue (which is false according to modern biologists) the hot water doesn't affect Rick if he waits and lets it hit him - it will affect him if he suddenly runs into it though. This is actually not such a bad thing as if the player is distracted and looks away for a second they won't be docked 10 points by the water hitting them. 
 
 ### 4. Inconvenient Bugs and Issues:
 
@@ -93,9 +93,9 @@ This caused particular problems with backgrounds as half the grid would be one c
 
 ### 5. Future Improvements
 
--Allowing the player to control movement by both button presses and by also holding the direction buttons down may improve user experience.
--It would be fairly easy to add other objects the player has to collect and this may make the game more engaging but may run the risk of making it too frantic.
--Responsive design so that the game can be played on smaller screens and phones would be the main thing I'd want to implement.
+- Allowing the player to control movement by both button presses and by also holding the direction buttons down may improve user experience.
+- It would be fairly easy to add other objects the player has to collect and this may make the game more engaging but may run the risk of making it too frantic.
+- Responsive design so that the game can be played on smaller screens and phones would be the main thing I'd want to implement.
 
 ### 6. Key Takeaways
 
