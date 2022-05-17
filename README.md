@@ -2,6 +2,9 @@
 
 ## Overview:
 
+![ezgif-4-155a9cb60b](https://user-images.githubusercontent.com/98101603/168754769-33e8dc57-903f-42a9-a0c0-62774af8c95f.gif)
+
+
 Pickle Rick is a Rick and Morty themed arcade style game.
 The aim of the game is to help Rick (who's in pickle form) to collect enough Szechuan dipping sauces for him to be able to recreate the recipe.
 
@@ -22,7 +25,7 @@ Git and GitHub
 
 I spent the first day of my project thinking of the game I wanted to create and using Excalidraw to sketch it out (see the sketch titled 'sketch' in assets).
 
-<img width="388" alt="sketch" src="https://user-images.githubusercontent.com/98101603/167865430-740a324d-d44f-4066-b53b-931391982b05.png">
+<img width="488" alt="sketch" src="https://user-images.githubusercontent.com/98101603/167865430-740a324d-d44f-4066-b53b-931391982b05.png">
 
 
 I wanted a game that would have a score at the end of it rather than a pass/fail so that the player could continue to try and beat their last score - giving the game a longer lifetime and making the game more addictive.
@@ -38,12 +41,14 @@ I initially planned on creating hot water pipes on every side of the grid to cre
 
 ### 3. Convenient/inconsequential Bugs:
 
--The Szechuan Suauce doesn't disappear on contact - this allows players to rack up multiple points by rapidly pressing left/right up/down when they come into contact with the Szechuan Sauce. I decided not to do anything about this as it rewards the player if they get to the sauce quickly and they can capitalise on this opportunity and is actually a really fun aspect of the game to master.
+-The Szechuan Suauce doesn't disappear on contact - this allows players to rack up multiple points by rapidly pressing left/right up/down when they come into contact with the Szechuan Sauce. I decided not to do anything about this as it rewards the player if they get to the sauce quickly and they can capitalise on this opportunity and is actually a really fun aspect of the game to master. In the gif below you can see the that sauce spawns twice but the player racks up 8 points - going from 26 to 34.
+
+![ezgif-1-fa3afac37d](https://user-images.githubusercontent.com/98101603/168793903-bc9eea04-555d-4710-853a-14d040fa9029.gif)
+
+-The Szechuan sauce sometimes takes a few seconds longer to spawn than it should. The gif above shows this happening as there is a slight delay between the first and second spawn. 
+I believe this is due to the sauce spawning randomly inside the cells on the grid that have already been occupied by the hot water. This makes scoring points during this time impossible but this period of time is very brief and doesn't happen often. When it does happen it's a chance for the player to breathe.
 
 -Much like the 'boiling frog' apologue(which is false according to modern biologists) the hot water doesn't affect Rick if he waits and lets it hit him - it will affect him if he suddenly runs into it though. This is actually not such a bad thing as if the player is distracted and looks away for a second they won't be docked 10 points by the water hitting them. 
-
--The Szechuan sauce sometimes takes a few seconds longer to spawn than it should.
-I believe this is due to the sauce spawning randomly inside the cells on the grid that have already been occupied by the hot water. This makes scoring points during this time impossible but this period of time is very brief and doesn't happen often. When it does happen it's a chance for the player to breathe.
 
 ### 4. Inconvenient Bugs and Issues:
 
