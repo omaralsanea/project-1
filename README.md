@@ -45,11 +45,26 @@ I also wrote code so that when Pickle Rick was occupying the same cell that was 
 
 <img width="372" alt="Screenshot 2022-05-17 at 12 14 23" src="https://user-images.githubusercontent.com/98101603/168799690-de1b0f62-e530-49ea-8737-6e30f10395ff.png">
 
+I then tackled the hot water pipes.
+Set intervals, if/else statements, forEach, splicing etc were used to achieve this as can be seen in the below snippet: 
 
-I then made the character - Pickle Rick and coded this so that on contact with the Szechuan Sauce a point would be scored.
-Lastly, I tackled the hot water pipes.
-Set intervals, if/else statements, forEach, splicing etc were used to achieve this.
+<img width="482" alt="Screenshot 2022-05-17 at 13 25 15" src="https://user-images.githubusercontent.com/98101603/168810456-972c1895-e7b4-47a8-8b17-0945e9b061e4.png">
+
 I initially planned on creating hot water pipes on every side of the grid to create a real sense of claustrophobia but I found that having them coming horizontally from the left hand side of the grid was sufficiently confining.
+
+As a finishing touch I included different difficulty settings by adjusting the speed that the Szechuan Sauce spawned with Easy mode being 2700 milliseconds, Normal mode being 2200 milliseconds and Hard mode being 1600 milliseconds which can be seen in the code below: 
+
+<img width="246" alt="Screenshot 2022-05-11 at 16 01 17" src="https://user-images.githubusercontent.com/98101603/168811456-e160131a-f888-43f5-a002-28421cd7d34d.png">
+
+
+<img width="341" alt="Screenshot 2022-05-17 at 11 52 47" src="https://user-images.githubusercontent.com/98101603/168811415-87258a80-ef22-4bb1-9f47-580a89653b1d.png">
+
+
+
+The last component to the game was including audio which I did with two separate wav files and event listeners - see the below code snippet: 
+
+<img width="403" alt="Screenshot 2022-05-17 at 13 22 59" src="https://user-images.githubusercontent.com/98101603/168811879-7887576a-5b68-4fce-ad88-0c3520edb5ec.png">
+
 
 ### 3. Convenient/inconsequential Bugs:
 
