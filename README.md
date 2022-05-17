@@ -1,5 +1,19 @@
 # Pickle Rick- SEI Project 1
 
+## Brief
+* Design a simple, grid-based game with HTML, CSS and JavaScript. 
+* The game must be built and deployed within 7 days.
+* The game must be a solo effort.
+
+## Technologies Used
+* JavaScript
+* HTML5
+* CSS
+* VSCode
+* Git
+* GitHub
+* Chrome Developer Edition
+
 ## Overview:
 
 <img width="1010" alt="Screenshot 2022-05-11 at 15 59 12" src="https://user-images.githubusercontent.com/98101603/168803934-b033bef3-53d1-4770-a14d-500edd5280c5.png">
@@ -12,14 +26,6 @@ The aim of the game is to help Rick (who's in pickle form) to collect enough Sze
 
 The player must guide Pickle Rick through the sewer system of pipes using the direction keys and collect as much Szechuan dipping sauce as they can before the timer runs out. The player must also avoid the hot pipes of water that appear as making contact with these will cause the player's score to drop by 10 points every time.
 The game consists of 3 levels of increasing difficulty with the length of time that the Szechuan sauce is in one spot decreasing as difficulty increases.  
-
-
-### Technologies Used:
-
-JavaScript
-HTML
-CSS
-Git and GitHub
 
 ### 1. Planning
 
